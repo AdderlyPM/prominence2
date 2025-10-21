@@ -1,0 +1,28 @@
+# Minecraft server files
+/world
+/logs
+/crash-reports
+/cache
+/backups
+/config
+/mods
+/plugins
+/downloads
+/journals
+/usercache.json
+/whitelist.json
+/ops.json
+/banned-ips.json
+/banned-players.json
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# Env and Railway configs
+.env
+.env.local
+.env.*.local
+
+# Docker / Railway build
+/data
